@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Criando formulários</title>
+</head>
+
+<meta charset="utf-8">
+<body>
+	<b> <p align="center"> Criando o primeiro formulário</b></p>
+
+	<form> Nome: <input type="text" size="30" maxlength="40" name="Primeironome"> <br><br> 
+		Endereço: <input type="text" size="30" maxlength="40" name="Endereco"> <br><br>
+		E-mail: <input type="text" size="30" maxlength="40" name="e-mail"> <br><br>
+		Telefone: <input type="text" size="2" maxlength="2" name="telddd"> 
+		<input type="text" size="9" maxlength="9" name="tel"> <br>
+		Deseja receber informações de promoções via e-mail?
+		<input type="radio" name="color" value="Sim" /> Sim
+		<input type="radio" name="color" value="Não" /> Não <br />
+
+		Selecione os meios de pagamentos que você utiliza: <br>
+
+		<input type="checkbox" name="pagamentos" value="cartao_debito" /> Cartão de débito <br/>
+		<input type="checkbox" name="pagamentos" value="cartao_credito" /> Catão de crédito<br/>
+		<input type="checkbox" name="pagamentos" value="Dinheiro" /> Dinheiro <br/><br>
+		
+
+		<b>Qual cidade reside?</b> <br>
+
+		<select multiple name="cidades" size="4">
+			<option value="Bambui" selected>Bambui</option> 
+			<option value="Formiga" >formiga</option> 
+				<option value="Arcos" >Arcos</option> 
+				<option value="Bom_Despacho" >Bom Despacho</option> 
+				<option value="Bom_Despacho" >Nova Serrana</option> 
+				<option value="Bom_Despacho" >Moema</option> 
+
+			</select><br><br>
+	
+
+
+		
+	<B>Estado</b><br>
+		<select name="estado">
+		<option>MG</option>
+		<option>SP </option> 
+		<option>RJ</option>
+		<option>ES</option>
+	</select><br /><br>
+
+
+	<p>
+Digite aqui alguma observação
+</p>
+
+ <textarea rows="5" cols="40"  name="comments">Digite aqui</textarea><br />
+	
+
+<input type="submit" value="Enviar"> <br>
+
+	</form> 
+
+</body>
+</html>
